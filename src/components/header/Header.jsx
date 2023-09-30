@@ -10,10 +10,10 @@ const Header = () => {
                 <p>Luminous Aquatics</p>
             </div>
             <div className='header-item'>
-                <a href="shop">shop</a>
-                <a href="order">order</a>
-                <a href="inventory">inventory</a>
-                <a href="login">login</a>
+                <a href="shop">Shop</a>
+                <a href="order">Order</a>
+                <a href="inventory">Inventory</a>
+                <a href="login">Login</a>
             </div>
         </div>
     );
