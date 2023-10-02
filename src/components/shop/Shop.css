@@ -1,10 +1,26 @@
-.shop-container{
+.shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.products-container{
+
+.products-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 35px;
     gap: 10px;
+}
+
+.cart-container {
+    border: 1px solid slategray;
+    margin-left: 0px;
+    margin: 35px 0px 0px 0px;
+    border-radius: 8px;
+    background-color: rgb(230, 232, 233);
+    height: 700px;
+    position: sticky;
+    top: 115px;
+}
+.cart-container h3{
+    text-align: center;
+    margin-top: 10px;
 }

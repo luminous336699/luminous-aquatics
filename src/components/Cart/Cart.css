@@ -1,0 +1,13 @@
+.cart{
+    /* background-color: rgb(230, 232, 233); */
+    /* background-color: rgb(223, 218, 177); */
+   margin-top: 10px;
+    width: 100%;
+    position: sticky;
+    top: 100px;
+}
+.cart p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
