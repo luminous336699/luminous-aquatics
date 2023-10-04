@@ -6,7 +6,10 @@ const Cart = ({ cart }) => {
     // const cart = props.cart;
     let total = 0;
     for (const product of cart){
-        total = total + product.price;
+        if(product){
+            total = total + product.price;
+        }
+        console.log(cart);
     }
     return (
         <div className='cart'>
