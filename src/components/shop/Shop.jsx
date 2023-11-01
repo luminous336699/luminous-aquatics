@@ -9,9 +9,9 @@ import { addToDb, getShoppingCart } from '../../utilities/fakedb';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('products.json')
+        fetch('product.json')
             .then(res => res.json())
-            .then(data => setProducts(data))
+            .then(data => setProducts(data.products))
     }, [])
     const [cart, setCart] = useState([])
 

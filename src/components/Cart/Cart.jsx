@@ -16,7 +16,8 @@ const Cart = ({ cart }) => {
             <h3>Order summary</h3>
             <div>
                 <p>Item added: {cart.length}</p>
-                <p>Total Price: {total.toFixed(2)}</p>
+                {/* <p>Total Price: {total.toFixed(2)}</p> */}
+                <p>Total Price: {total}</p>
                 <p>Delivery Charge: </p>
                 <p>Discount: </p>
                 <p>Grand Total: </p>
